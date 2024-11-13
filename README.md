@@ -35,12 +35,10 @@ pip install requests pillow python-dotenv waveshare-epaper
 ```
 
 ## Configuration
-1. Créer un fichier `.env` avec vos identifiants NiceHash :
-```env
-NICEHASH_API_KEY=votre_api_key
-NICEHASH_API_SECRET=votre_api_secret
-NICEHASH_ORG_ID=votre_org_id
-```
+1. Editer le fichier `config.py` avec vos identifiants NiceHash :
+API_KEY = 'votre_api_key'
+API_SECRET = 'votre_api_secret'
+ORGANIZATION_ID = 'votre_org_id'
 
 ## Format d'Affichage
 - Timestamp
